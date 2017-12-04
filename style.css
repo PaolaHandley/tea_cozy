@@ -1,16 +1,30 @@
 body {
   background-color: black;
-  color: white;
+  color: seashell;
   font-family: Helvetica, sans-serif;
 }
 
 div {
-  border: thin solid red;
-  margin: auto;
+    margin: auto;
 }
 
 h1, h2, h3 {
   text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 header {
@@ -24,10 +38,19 @@ header {
   align-items: center;
 }
 
-a {
-  color: white;
+nav span {
+  margin-right: 20px;
+
 }
 
+nav a {
+  color: white;
+  font-size: 22px;
+}
+
+footer {
+font-weight: bold;
+}
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -41,45 +64,25 @@ a {
   padding-top: 116px;
 }
 
-.mission {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-}
-
 .box {
   background-color: black;
-  border:1px solid seashell;
   position: relative;
   width: 1000px;
-  height: 200px;
   padding: 10px;
-}
-
-.featured_tea {
-  width: 1000px;
-  align-content: space-around;
-}
-
-.featured_tea img {
-  width: 300px;
 }
 
 .tea_list {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
 }
 
 .tea {
   width: 300px;
-  margin: auto;
-}
-
-.locations {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
 .margin-box {
   background-color: black;
-  border:1px solid seashell;
   position: relative;
   width: 300px;
   height: 200px;
@@ -87,10 +90,27 @@ a {
   padding: 10px;
 }
 
-#background-image {
+.background-image {
   background-repeat: no-repeat;
   width: 1000px;
   height: 600px;
   display: flex;
   margin: auto;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#featured_tea {
+  width: 1000px;
+  align-content: center;
+}
+
+#featured_tea img {
+  width: 300px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
